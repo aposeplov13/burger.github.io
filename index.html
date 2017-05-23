@@ -1,0 +1,1007 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Title</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- Template Basic Images Start -->
+	<meta property="og:image" content="path/to/image.jpg">
+	<!--<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">-->
+	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+	<!-- Template Basic Images End -->
+	<!-- Bootstrap (latest) Grid Styles Only -->
+	
+	<style>html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block;vertical-align:baseline}audio:not([controls]){display:none;height:0}[hidden],template{display:none}a{background-color:transparent}a:active,a:hover{outline:0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:bold}dfn{font-style:italic}h1{font-size:2em;margin:0.67em 0}mark{background:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-0.5em}sub{bottom:-0.25em}img{border:0}svg:not(:root){overflow:hidden}figure{margin:1em 40px}hr{-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box;height:0}pre{overflow:auto}code,kbd,pre,samp{font-family:monospace, monospace;font-size:1em}button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}button{overflow:visible}button,select{text-transform:none}button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}input[type="checkbox"],input[type="radio"]{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;padding:0}input[type="number"]::-webkit-inner-spin-button,input[type="number"]::-webkit-outer-spin-button{height:auto}input[type="search"]{-webkit-appearance:textfield;-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box}input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration{-webkit-appearance:none}fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:0.35em 0.625em 0.75em}legend{border:0;padding:0}textarea{overflow:auto}optgroup{font-weight:bold}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*:before,*:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}html{font-size:10px;-webkit-tap-highlight-color:rgba(0,0,0,0)}body{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:14px;line-height:1.42857143;color:#333;background-color:#fff}input,button,select,textarea{font-family:inherit;font-size:inherit;line-height:inherit}a{color:#337ab7;text-decoration:none}a:hover,a:focus{color:#23527c;text-decoration:underline}a:focus{outline:5px auto -webkit-focus-ring-color;outline-offset:-2px}figure{margin:0}img{vertical-align:middle}.img-responsive,.carousel-inner>.item>img,.carousel-inner>.item>a>img{display:block;max-width:100%;height:auto}.img-rounded{border-radius:6px}.img-thumbnail{padding:4px;line-height:1.42857143;background-color:#fff;border:1px solid #ddd;border-radius:4px;-webkit-transition:all .2s ease-in-out;-o-transition:all .2s ease-in-out;transition:all .2s ease-in-out;display:inline-block;max-width:100%;height:auto}.img-circle{border-radius:50%}hr{margin-top:20px;margin-bottom:20px;border:0;border-top:1px solid #eee}.sr-only{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);border:0}.sr-only-focusable:active,.sr-only-focusable:focus{position:static;width:auto;height:auto;margin:0;overflow:visible;clip:auto}[role="button"]{cursor:pointer}.fade{opacity:0;-webkit-transition:opacity .15s linear;-o-transition:opacity .15s linear;transition:opacity .15s linear}.fade.in{opacity:1}.collapse{display:none}.collapse.in{display:block}tr.collapse.in{display:table-row}tbody.collapse.in{display:table-row-group}.collapsing{position:relative;height:0;overflow:hidden;-webkit-transition-property:height, visibility;-o-transition-property:height, visibility;transition-property:height, visibility;-webkit-transition-duration:.35s;-o-transition-duration:.35s;transition-duration:.35s;-webkit-transition-timing-function:ease;-o-transition-timing-function:ease;transition-timing-function:ease}.caret{display:inline-block;width:0;height:0;margin-left:2px;vertical-align:middle;border-top:4px dashed;border-top:4px solid \9;border-right:4px solid transparent;border-left:4px solid transparent}.dropup,.dropdown{position:relative}.dropdown-toggle:focus{outline:0}.dropdown-menu{position:absolute;top:100%;left:0;z-index:1000;display:none;float:left;min-width:160px;padding:5px 0;margin:2px 0 0;list-style:none;font-size:14px;text-align:left;background-color:#fff;border:1px solid #ccc;border:1px solid rgba(0,0,0,0.15);border-radius:4px;-webkit-box-shadow:0 6px 12px rgba(0,0,0,0.175);box-shadow:0 6px 12px rgba(0,0,0,0.175);-webkit-background-clip:padding-box;background-clip:padding-box}.dropdown-menu.pull-right{right:0;left:auto}.dropdown-menu .divider{height:1px;margin:9px 0;overflow:hidden;background-color:#e5e5e5}.dropdown-menu>li>a{display:block;padding:3px 20px;clear:both;font-weight:normal;line-height:1.42857143;color:#333;white-space:nowrap}.dropdown-menu>li>a:hover,.dropdown-menu>li>a:focus{text-decoration:none;color:#262626;background-color:#f5f5f5}.dropdown-menu>.active>a,.dropdown-menu>.active>a:hover,.dropdown-menu>.active>a:focus{color:#fff;text-decoration:none;outline:0;background-color:#337ab7}.dropdown-menu>.disabled>a,.dropdown-menu>.disabled>a:hover,.dropdown-menu>.disabled>a:focus{color:#777}.dropdown-menu>.disabled>a:hover,.dropdown-menu>.disabled>a:focus{text-decoration:none;background-color:transparent;background-image:none;filter:progid:DXImageTransform.Microsoft.gradient(enabled = false);cursor:not-allowed}.open>.dropdown-menu{display:block}.open>a{outline:0}.dropdown-menu-right{left:auto;right:0}.dropdown-menu-left{left:0;right:auto}.dropdown-header{display:block;padding:3px 20px;font-size:12px;line-height:1.42857143;color:#777;white-space:nowrap}.dropdown-backdrop{position:fixed;left:0;right:0;bottom:0;top:0;z-index:990}.pull-right>.dropdown-menu{right:0;left:auto}.dropup .caret,.navbar-fixed-bottom .dropdown .caret{border-top:0;border-bottom:4px dashed;border-bottom:4px solid \9;content:""}.dropup .dropdown-menu,.navbar-fixed-bottom .dropdown .dropdown-menu{top:auto;bottom:100%;margin-bottom:2px}@media (min-width:768px){.navbar-right .dropdown-menu{left:auto;right:0}.navbar-right .dropdown-menu-left{left:0;right:auto}}.carousel{position:relative}.carousel-inner{position:relative;overflow:hidden;width:100%}.carousel-inner>.item{display:none;position:relative;-webkit-transition:.6s ease-in-out left;-o-transition:.6s ease-in-out left;transition:.6s ease-in-out left}.carousel-inner>.item>img,.carousel-inner>.item>a>img{line-height:1}@media all and (transform-3d),(-webkit-transform-3d){.carousel-inner>.item{-webkit-transition:-webkit-transform 0.6s ease-in-out;-o-transition:-o-transform 0.6s ease-in-out;transition:transform 0.6s ease-in-out;-webkit-backface-visibility:hidden;backface-visibility:hidden;-webkit-perspective:1000px;perspective:1000px}.carousel-inner>.item.next,.carousel-inner>.item.active.right{-webkit-transform:translate3d(100%, 0, 0);transform:translate3d(100%, 0, 0);left:0}.carousel-inner>.item.prev,.carousel-inner>.item.active.left{-webkit-transform:translate3d(-100%, 0, 0);transform:translate3d(-100%, 0, 0);left:0}.carousel-inner>.item.next.left,.carousel-inner>.item.prev.right,.carousel-inner>.item.active{-webkit-transform:translate3d(0, 0, 0);transform:translate3d(0, 0, 0);left:0}}.carousel-inner>.active,.carousel-inner>.next,.carousel-inner>.prev{display:block}.carousel-inner>.active{left:0}.carousel-inner>.next,.carousel-inner>.prev{position:absolute;top:0;width:100%}.carousel-inner>.next{left:100%}.carousel-inner>.prev{left:-100%}.carousel-inner>.next.left,.carousel-inner>.prev.right{left:0}.carousel-inner>.active.left{left:-100%}.carousel-inner>.active.right{left:100%}.carousel-control{position:absolute;top:0;left:0;bottom:0;width:15%;opacity:.5;filter:alpha(opacity=50);font-size:20px;color:#fff;text-align:center;text-shadow:0 1px 2px rgba(0,0,0,0.6);background-color:rgba(0,0,0,0)}.carousel-control.left{background-image:-webkit-linear-gradient(left, rgba(0,0,0,0.5) 0, rgba(0,0,0,0.0001) 100%);background-image:-o-linear-gradient(left, rgba(0,0,0,0.5) 0, rgba(0,0,0,0.0001) 100%);background-image:-webkit-gradient(linear, left top, right top, color-stop(0, rgba(0,0,0,0.5)), to(rgba(0,0,0,0.0001)));background-image:linear-gradient(to right, rgba(0,0,0,0.5) 0, rgba(0,0,0,0.0001) 100%);background-repeat:repeat-x;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1)}.carousel-control.right{left:auto;right:0;background-image:-webkit-linear-gradient(left, rgba(0,0,0,0.0001) 0, rgba(0,0,0,0.5) 100%);background-image:-o-linear-gradient(left, rgba(0,0,0,0.0001) 0, rgba(0,0,0,0.5) 100%);background-image:-webkit-gradient(linear, left top, right top, color-stop(0, rgba(0,0,0,0.0001)), to(rgba(0,0,0,0.5)));background-image:linear-gradient(to right, rgba(0,0,0,0.0001) 0, rgba(0,0,0,0.5) 100%);background-repeat:repeat-x;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1)}.carousel-control:hover,.carousel-control:focus{outline:0;color:#fff;text-decoration:none;opacity:.9;filter:alpha(opacity=90)}.carousel-control .icon-prev,.carousel-control .icon-next,.carousel-control .glyphicon-chevron-left,.carousel-control .glyphicon-chevron-right{position:absolute;top:50%;margin-top:-10px;z-index:5;display:inline-block}.carousel-control .icon-prev,.carousel-control .glyphicon-chevron-left{left:50%;margin-left:-10px}.carousel-control .icon-next,.carousel-control .glyphicon-chevron-right{right:50%;margin-right:-10px}.carousel-control .icon-prev,.carousel-control .icon-next{width:20px;height:20px;line-height:1;font-family:serif}.carousel-control .icon-prev:before{content:'\2039'}.carousel-control .icon-next:before{content:'\203a'}.carousel-indicators{position:absolute;bottom:10px;left:50%;z-index:15;width:60%;margin-left:-30%;padding-left:0;list-style:none;text-align:center}.carousel-indicators li{display:inline-block;width:10px;height:10px;margin:1px;text-indent:-999px;border:1px solid #fff;border-radius:10px;cursor:pointer;background-color:#000 \9;background-color:rgba(0,0,0,0)}.carousel-indicators .active{margin:0;width:12px;height:12px;background-color:#fff}.carousel-caption{position:absolute;left:15%;right:15%;bottom:20px;z-index:10;padding-top:20px;padding-bottom:20px;color:#fff;text-align:center;text-shadow:0 1px 2px rgba(0,0,0,0.6)}.carousel-caption .btn{text-shadow:none}@media screen and (min-width:768px){.carousel-control .glyphicon-chevron-left,.carousel-control .glyphicon-chevron-right,.carousel-control .icon-prev,.carousel-control .icon-next{width:30px;height:30px;margin-top:-10px;font-size:30px}.carousel-control .glyphicon-chevron-left,.carousel-control .icon-prev{margin-left:-10px}.carousel-control .glyphicon-chevron-right,.carousel-control .icon-next{margin-right:-10px}.carousel-caption{left:20%;right:20%;padding-bottom:30px}.carousel-indicators{bottom:20px}}.clearfix:before,.clearfix:after{content:" ";display:table}.clearfix:after{clear:both}.center-block{display:block;margin-left:auto;margin-right:auto}.pull-right{float:right !important}.pull-left{float:left !important}.hide{display:none !important}.show{display:block !important}.invisible{visibility:hidden}.text-hide{font:0/0 a;color:transparent;text-shadow:none;background-color:transparent;border:0}.hidden{display:none !important}.affix{position:fixed}</style>
+	<!-- Header Bootstrap JS-->
+	<script>if("undefined"==typeof jQuery)throw new Error("Bootstrap's JavaScript requires jQuery");+function(t){"use strict";var e=t.fn.jquery.split(" ")[0].split(".");if(e[0]<2&&e[1]<9||1==e[0]&&9==e[1]&&e[2]<1||e[0]>3)throw new Error("Bootstrap's JavaScript requires jQuery version 1.9.1 or higher, but lower than version 4")}(jQuery),+function(t){"use strict";function e(e){return this.each(function(){var s=t(this),n=s.data("bs.carousel"),o=t.extend({},i.DEFAULTS,s.data(),"object"==typeof e&&e),a="string"==typeof e?e:o.slide;n||s.data("bs.carousel",n=new i(this,o)),"number"==typeof e?n.to(e):a?n[a]():o.interval&&n.pause().cycle()})}var i=function(e,i){this.$element=t(e),this.$indicators=this.$element.find(".carousel-indicators"),this.options=i,this.paused=null,this.sliding=null,this.interval=null,this.$active=null,this.$items=null,this.options.keyboard&&this.$element.on("keydown.bs.carousel",t.proxy(this.keydown,this)),"hover"==this.options.pause&&!("ontouchstart"in document.documentElement)&&this.$element.on("mouseenter.bs.carousel",t.proxy(this.pause,this)).on("mouseleave.bs.carousel",t.proxy(this.cycle,this))};i.VERSION="3.3.7",i.TRANSITION_DURATION=600,i.DEFAULTS={interval:5e3,pause:"hover",wrap:!0,keyboard:!0},i.prototype.keydown=function(t){if(!/input|textarea/i.test(t.target.tagName)){switch(t.which){case 37:this.prev();break;case 39:this.next();break;default:return}t.preventDefault()}},i.prototype.cycle=function(e){return e||(this.paused=!1),this.interval&&clearInterval(this.interval),this.options.interval&&!this.paused&&(this.interval=setInterval(t.proxy(this.next,this),this.options.interval)),this},i.prototype.getItemIndex=function(t){return this.$items=t.parent().children(".item"),this.$items.index(t||this.$active)},i.prototype.getItemForDirection=function(t,e){var i=this.getItemIndex(e),s="prev"==t&&0===i||"next"==t&&i==this.$items.length-1;if(s&&!this.options.wrap)return e;var n="prev"==t?-1:1,o=(i+n)%this.$items.length;return this.$items.eq(o)},i.prototype.to=function(t){var e=this,i=this.getItemIndex(this.$active=this.$element.find(".item.active"));return t>this.$items.length-1||0>t?void 0:this.sliding?this.$element.one("slid.bs.carousel",function(){e.to(t)}):i==t?this.pause().cycle():this.slide(t>i?"next":"prev",this.$items.eq(t))},i.prototype.pause=function(e){return e||(this.paused=!0),this.$element.find(".next, .prev").length&&t.support.transition&&(this.$element.trigger(t.support.transition.end),this.cycle(!0)),this.interval=clearInterval(this.interval),this},i.prototype.next=function(){return this.sliding?void 0:this.slide("next")},i.prototype.prev=function(){return this.sliding?void 0:this.slide("prev")},i.prototype.slide=function(e,s){var n=this.$element.find(".item.active"),o=s||this.getItemForDirection(e,n),a=this.interval,r="next"==e?"left":"right",l=this;if(o.hasClass("active"))return this.sliding=!1;var h=o[0],d=t.Event("slide.bs.carousel",{relatedTarget:h,direction:r});if(this.$element.trigger(d),!d.isDefaultPrevented()){if(this.sliding=!0,a&&this.pause(),this.$indicators.length){this.$indicators.find(".active").removeClass("active");var c=t(this.$indicators.children()[this.getItemIndex(o)]);c&&c.addClass("active")}var p=t.Event("slid.bs.carousel",{relatedTarget:h,direction:r});return t.support.transition&&this.$element.hasClass("slide")?(o.addClass(e),o[0].offsetWidth,n.addClass(r),o.addClass(r),n.one("bsTransitionEnd",function(){o.removeClass([e,r].join(" ")).addClass("active"),n.removeClass(["active",r].join(" ")),l.sliding=!1,setTimeout(function(){l.$element.trigger(p)},0)}).emulateTransitionEnd(i.TRANSITION_DURATION)):(n.removeClass("active"),o.addClass("active"),this.sliding=!1,this.$element.trigger(p)),a&&this.cycle(),this}};var s=t.fn.carousel;t.fn.carousel=e,t.fn.carousel.Constructor=i,t.fn.carousel.noConflict=function(){return t.fn.carousel=s,this};var n=function(i){var s,n=t(this),o=t(n.attr("data-target")||(s=n.attr("href"))&&s.replace(/.*(?=#[^\s]+$)/,""));if(o.hasClass("carousel")){var a=t.extend({},o.data(),n.data()),r=n.attr("data-slide-to");r&&(a.interval=!1),e.call(o,a),r&&o.data("bs.carousel").to(r),i.preventDefault()}};t(document).on("click.bs.carousel.data-api","[data-slide]",n).on("click.bs.carousel.data-api","[data-slide-to]",n),t(window).on("load",function(){t('[data-ride="carousel"]').each(function(){var i=t(this);e.call(i,i.data())})})}(jQuery),+function(t){"use strict";function e(e){return this.each(function(){var s=t(this),n=s.data("bs.affix"),o="object"==typeof e&&e;n||s.data("bs.affix",n=new i(this,o)),"string"==typeof e&&n[e]()})}var i=function(e,s){this.options=t.extend({},i.DEFAULTS,s),this.$target=t(this.options.target).on("scroll.bs.affix.data-api",t.proxy(this.checkPosition,this)).on("click.bs.affix.data-api",t.proxy(this.checkPositionWithEventLoop,this)),this.$element=t(e),this.affixed=null,this.unpin=null,this.pinnedOffset=null,this.checkPosition()};i.VERSION="3.3.7",i.RESET="affix affix-top affix-bottom",i.DEFAULTS={offset:0,target:window},i.prototype.getState=function(t,e,i,s){var n=this.$target.scrollTop(),o=this.$element.offset(),a=this.$target.height();if(null!=i&&"top"==this.affixed)return i>n?"top":!1;if("bottom"==this.affixed)return null!=i?n+this.unpin<=o.top?!1:"bottom":t-s>=n+a?!1:"bottom";var r=null==this.affixed,l=r?n:o.top,h=r?a:e;return null!=i&&i>=n?"top":null!=s&&l+h>=t-s?"bottom":!1},i.prototype.getPinnedOffset=function(){if(this.pinnedOffset)return this.pinnedOffset;this.$element.removeClass(i.RESET).addClass("affix");var t=this.$target.scrollTop(),e=this.$element.offset();return this.pinnedOffset=e.top-t},i.prototype.checkPositionWithEventLoop=function(){setTimeout(t.proxy(this.checkPosition,this),1)},i.prototype.checkPosition=function(){if(this.$element.is(":visible")){var e=this.$element.height(),s=this.options.offset,n=s.top,o=s.bottom,a=Math.max(t(document).height(),t(document.body).height());"object"!=typeof s&&(o=n=s),"function"==typeof n&&(n=s.top(this.$element)),"function"==typeof o&&(o=s.bottom(this.$element));var r=this.getState(a,e,n,o);if(this.affixed!=r){null!=this.unpin&&this.$element.css("top","");var l="affix"+(r?"-"+r:""),h=t.Event(l+".bs.affix");if(this.$element.trigger(h),h.isDefaultPrevented())return;this.affixed=r,this.unpin="bottom"==r?this.getPinnedOffset():null,this.$element.removeClass(i.RESET).addClass(l).trigger(l.replace("affix","affixed")+".bs.affix")}"bottom"==r&&this.$element.offset({top:a-e-o})}};var s=t.fn.affix;t.fn.affix=e,t.fn.affix.Constructor=i,t.fn.affix.noConflict=function(){return t.fn.affix=s,this},t(window).on("load",function(){t('[data-spy="affix"]').each(function(){var i=t(this),s=i.data();s.offset=s.offset||{},null!=s.offsetBottom&&(s.offset.bottom=s.offsetBottom),null!=s.offsetTop&&(s.offset.top=s.offsetTop),e.call(i,s)})})}(jQuery),+function(t){"use strict";function e(e){var i,s=e.attr("data-target")||(i=e.attr("href"))&&i.replace(/.*(?=#[^\s]+$)/,"");return t(s)}function i(e){return this.each(function(){var i=t(this),n=i.data("bs.collapse"),o=t.extend({},s.DEFAULTS,i.data(),"object"==typeof e&&e);!n&&o.toggle&&/show|hide/.test(e)&&(o.toggle=!1),n||i.data("bs.collapse",n=new s(this,o)),"string"==typeof e&&n[e]()})}var s=function(e,i){this.$element=t(e),this.options=t.extend({},s.DEFAULTS,i),this.$trigger=t('[data-toggle="collapse"][href="#'+e.id+'"],[data-toggle="collapse"][data-target="#'+e.id+'"]'),this.transitioning=null,this.options.parent?this.$parent=this.getParent():this.addAriaAndCollapsedClass(this.$element,this.$trigger),this.options.toggle&&this.toggle()};s.VERSION="3.3.7",s.TRANSITION_DURATION=350,s.DEFAULTS={toggle:!0},s.prototype.dimension=function(){var t=this.$element.hasClass("width");return t?"width":"height"},s.prototype.show=function(){if(!this.transitioning&&!this.$element.hasClass("in")){var e,n=this.$parent&&this.$parent.children(".panel").children(".in, .collapsing");if(!(n&&n.length&&(e=n.data("bs.collapse"),e&&e.transitioning))){var o=t.Event("show.bs.collapse");if(this.$element.trigger(o),!o.isDefaultPrevented()){n&&n.length&&(i.call(n,"hide"),e||n.data("bs.collapse",null));var a=this.dimension();this.$element.removeClass("collapse").addClass("collapsing")[a](0).attr("aria-expanded",!0),this.$trigger.removeClass("collapsed").attr("aria-expanded",!0),this.transitioning=1;var r=function(){this.$element.removeClass("collapsing").addClass("collapse in")[a](""),this.transitioning=0,this.$element.trigger("shown.bs.collapse")};if(!t.support.transition)return r.call(this);var l=t.camelCase(["scroll",a].join("-"));this.$element.one("bsTransitionEnd",t.proxy(r,this)).emulateTransitionEnd(s.TRANSITION_DURATION)[a](this.$element[0][l])}}}},s.prototype.hide=function(){if(!this.transitioning&&this.$element.hasClass("in")){var e=t.Event("hide.bs.collapse");if(this.$element.trigger(e),!e.isDefaultPrevented()){var i=this.dimension();this.$element[i](this.$element[i]())[0].offsetHeight,this.$element.addClass("collapsing").removeClass("collapse in").attr("aria-expanded",!1),this.$trigger.addClass("collapsed").attr("aria-expanded",!1),this.transitioning=1;var n=function(){this.transitioning=0,this.$element.removeClass("collapsing").addClass("collapse").trigger("hidden.bs.collapse")};return t.support.transition?void this.$element[i](0).one("bsTransitionEnd",t.proxy(n,this)).emulateTransitionEnd(s.TRANSITION_DURATION):n.call(this)}}},s.prototype.toggle=function(){this[this.$element.hasClass("in")?"hide":"show"]()},s.prototype.getParent=function(){return t(this.options.parent).find('[data-toggle="collapse"][data-parent="'+this.options.parent+'"]').each(t.proxy(function(i,s){var n=t(s);this.addAriaAndCollapsedClass(e(n),n)},this)).end()},s.prototype.addAriaAndCollapsedClass=function(t,e){var i=t.hasClass("in");t.attr("aria-expanded",i),e.toggleClass("collapsed",!i).attr("aria-expanded",i)};var n=t.fn.collapse;t.fn.collapse=i,t.fn.collapse.Constructor=s,t.fn.collapse.noConflict=function(){return t.fn.collapse=n,this},t(document).on("click.bs.collapse.data-api",'[data-toggle="collapse"]',function(s){var n=t(this);n.attr("data-target")||s.preventDefault();var o=e(n),a=o.data("bs.collapse"),r=a?"toggle":n.data();i.call(o,r)})}(jQuery),+function(t){"use strict";function e(i,s){this.$body=t(document.body),this.$scrollElement=t(t(i).is(document.body)?window:i),this.options=t.extend({},e.DEFAULTS,s),this.selector=(this.options.target||"")+" .nav li > a",this.offsets=[],this.targets=[],this.activeTarget=null,this.scrollHeight=0,this.$scrollElement.on("scroll.bs.scrollspy",t.proxy(this.process,this)),this.refresh(),this.process()}function i(i){return this.each(function(){var s=t(this),n=s.data("bs.scrollspy"),o="object"==typeof i&&i;n||s.data("bs.scrollspy",n=new e(this,o)),"string"==typeof i&&n[i]()})}e.VERSION="3.3.7",e.DEFAULTS={offset:10},e.prototype.getScrollHeight=function(){return this.$scrollElement[0].scrollHeight||Math.max(this.$body[0].scrollHeight,document.documentElement.scrollHeight)},e.prototype.refresh=function(){var e=this,i="offset",s=0;this.offsets=[],this.targets=[],this.scrollHeight=this.getScrollHeight(),t.isWindow(this.$scrollElement[0])||(i="position",s=this.$scrollElement.scrollTop()),this.$body.find(this.selector).map(function(){var e=t(this),n=e.data("target")||e.attr("href"),o=/^#./.test(n)&&t(n);return o&&o.length&&o.is(":visible")&&[[o[i]().top+s,n]]||null}).sort(function(t,e){return t[0]-e[0]}).each(function(){e.offsets.push(this[0]),e.targets.push(this[1])})},e.prototype.process=function(){var t,e=this.$scrollElement.scrollTop()+this.options.offset,i=this.getScrollHeight(),s=this.options.offset+i-this.$scrollElement.height(),n=this.offsets,o=this.targets,a=this.activeTarget;if(this.scrollHeight!=i&&this.refresh(),e>=s)return a!=(t=o[o.length-1])&&this.activate(t);if(a&&e<n[0])return this.activeTarget=null,this.clear();for(t=n.length;t--;)a!=o[t]&&e>=n[t]&&(void 0===n[t+1]||e<n[t+1])&&this.activate(o[t])},e.prototype.activate=function(e){this.activeTarget=e,this.clear();var i=this.selector+'[data-target="'+e+'"],'+this.selector+'[href="'+e+'"]',s=t(i).parents("li").addClass("active");s.parent(".dropdown-menu").length&&(s=s.closest("li.dropdown").addClass("active")),s.trigger("activate.bs.scrollspy")},e.prototype.clear=function(){t(this.selector).parentsUntil(this.options.target,".active").removeClass("active")};var s=t.fn.scrollspy;t.fn.scrollspy=i,t.fn.scrollspy.Constructor=e,t.fn.scrollspy.noConflict=function(){return t.fn.scrollspy=s,this},t(window).on("load.bs.scrollspy.data-api",function(){t('[data-spy="scroll"]').each(function(){var e=t(this);i.call(e,e.data())})})}(jQuery),+function(t){"use strict";function e(){var t=document.createElement("bootstrap"),e={WebkitTransition:"webkitTransitionEnd",MozTransition:"transitionend",OTransition:"oTransitionEnd otransitionend",transition:"transitionend"};for(var i in e)if(void 0!==t.style[i])return{end:e[i]};return!1}t.fn.emulateTransitionEnd=function(e){var i=!1,s=this;t(this).one("bsTransitionEnd",function(){i=!0});var n=function(){i||t(s).trigger(t.support.transition.end)};return setTimeout(n,e),this},t(function(){t.support.transition=e(),t.support.transition&&(t.event.special.bsTransitionEnd={bindType:t.support.transition.end,delegateType:t.support.transition.end,handle:function(e){return t(e.target).is(this)?e.handleObj.handler.apply(this,arguments):void 0}})})}(jQuery);</script>
+	<!-- Header CSS (first screen styles from header.min.css) - inserted in the build of the project -->
+	<style>::-webkit-input-placeholder{color:#666;opacity:1}:-moz-placeholder{color:#666;opacity:1}::-moz-placeholder{color:#666;opacity:1}:-ms-input-placeholder{color:#666;opacity:1}body input:focus:required:invalid,body textarea:focus:required:invalid{color:#666}body input:required:valid,body textarea:required:valid{color:#666}body{font-size:16px;min-width:320px;position:relative;line-height:1.6;font-family:roboto,sans-serif;overflow-x:hidden}.pill-content>.pill-pane,.tab-content>.tab-pane{display:block;height:0;overflow:hidden}.pill-content>.active,.tab-content>.active{height:auto}.sec-header .navbar-inverse{background-color:#fff;min-height:6em;padding-top:1.4em}.sec-header .navbar-inverse .navbar-brand{font-size:2em;font-family:Changa,Helvetica,sans-serif}.sec-header .navbar-inverse .navbar-brand span{color:#ec5353}.sec-header .navbar-inverse a{color:#000}.sec-header .navbar-inverse .top-link-navbar{border-right:1px solid #000}.sec-header .navbar-inverse .navbar-left a{color:#000;padding-top:0;padding-bottom:0;margin-top:15px;margin-bottom:15px}.sec-header .navbar-inverse .navbar-left a:hover{color:#fccb56}.sec-header .navbar-inverse .navbar-left a .icon{font-size:1.8em;margin-right:.5em;color:#ec5353}.sec-header .navbar-inverse .navbar-right a{color:#000;padding-top:0;padding-bottom:0;margin-top:10px;margin-bottom:15px}.sec-header .navbar-inverse .navbar-right a:hover{color:#f9b129}.sec-header .navbar-inverse .navbar-right .icon{color:#ec5353;font-size:2.4em;margin-right:.2em}.sec-header .navbar-inverse .navbar-right .icon:hover{color:#f9b129}.sec-header .carousel .carousel-indicators li{background:#fccb56;height:1.4em;width:1.4em}.sec-header .carousel .carousel-indicators .active{background:#ec5353}.sec-header .carousel .carousel-caption{text-align:left}.sec-header .carousel .carousel-caption .row{margin-bottom:8em}.sec-header .carousel .carousel-caption h1{text-justify:auto;font-family:Changa,Helvetica,sans-serif;font-size:6.79em;margin-top:0;margin-bottom:0}.sec-header .carousel .carousel-caption h1 span{font-size:.3em}.sec-header .carousel .carousel-caption h2{color:#ec5353;font-family:Changa,Helvetica,sans-serif;font-size:4.2em;margin-top:0;margin-bottom:0}.sec-header .carousel .carousel-caption h3{color:#fccb56;font-family:Changa,Helvetica,sans-serif;font-size:3.6em;margin-top:0;margin-bottom:0}.sec-header .carousel .carousel-caption h4{color:#fccb56;font-family:Changa,Helvetica,sans-serif;font-size:2.5714em;margin-bottom:0}.sec-header .carousel .carousel-caption h5{color:#fccb56;font-family:Changa,Helvetica,sans-serif;font-size:2.5714em}.sec-header .carousel .carousel-caption h6{color:#fff;font-family:Changa,Helvetica,sans-serif;font-size:1.2em}.sec-header .carousel .carousel-caption h6:before{content:"";display:inline-block;margin-bottom:.3em;width:15%;height:2px;background-color:#fff;position:relative;margin-right:.3em}.sec-header .carousel .carousel-caption h6:after{content:"";display:inline-block;margin-bottom:.3em;width:15%;height:2px;background-color:#fff;position:relative;margin-left:.4em}.sec-header .carousel .btn{margin-top:1.4em;padding:1.1em 5.2em;-webkit-border-radius:2em;border-radius:2em;font-family:Lato,Arial,sans-serif}.sec-header .sec-offers{margin-top:6em;margin-bottom:6em}.sec-header .sec-offers .thumbnail{border:none;padding:0;background:#fccb56;margin:1em;-webkit-transition:margin .5s;transition:margin .5s;border:1px solid #000;-webkit-border-radius:0;border-radius:0}.sec-header .sec-offers .thumbnail:hover{margin:0}.sec-header .sec-offers .thumbnail img{width:100%}.sec-header .sec-offers .thumbnail a:hover{text-decoration:none}.sec-header .sec-offers .thumbnail .caption{margin-left:1.9%;margin-right:1.9%}.sec-header .sec-offers .thumbnail .caption h3{font-size:3.5em;font-family:Changa,Helvetica,sans-serif;font-weight:400;color:#ec5353;margin-top:0;margin-bottom:0}.sec-header .sec-offers .thumbnail .caption p{font-size:2.5em;font-family:Changa,Helvetica,sans-serif;font-weight:400;margin-top:0;margin-bottom:0}</style>
+	<!-- Load CSS, CSS Localstorage & WebFonts Main Function -->
+	<script>!function(e){"use strict";function t(e,t,n){e.addEventListener?e.addEventListener(t,n,!1):e.attachEvent&&e.attachEvent("on"+t,n)};function n(t,n){return e.localStorage&&localStorage[t+"_content"]&&localStorage[t+"_file"]===n};function a(t,a){if(e.localStorage&&e.XMLHttpRequest)n(t,a)?o(localStorage[t+"_content"]):l(t,a);else{var s=r.createElement("link");s.href=a,s.id=t,s.rel="stylesheet",s.type="text/css",r.getElementsByTagName("head")[0].appendChild(s),r.cookie=t}}function l(e,t){var n=new XMLHttpRequest;n.open("GET",t,!0),n.onreadystatechange=function(){4===n.readyState&&200===n.status&&(o(n.responseText),localStorage[e+"_content"]=n.responseText,localStorage[e+"_file"]=t)},n.send()}function o(e){var t=r.createElement("style");t.setAttribute("type","text/css"),r.getElementsByTagName("head")[0].appendChild(t),t.styleSheet?t.styleSheet.cssText=e:t.innerHTML=e}var r=e.document;e.loadCSS=function(e,t,n){var a,l=r.createElement("link");if(t)a=t;else{var o;o=r.querySelectorAll?r.querySelectorAll("style,link[rel=stylesheet],script"):(r.body||r.getElementsByTagName("head")[0]).childNodes,a=o[o.length-1]}var s=r.styleSheets;l.rel="stylesheet",l.href=e,l.media="only x",a.parentNode.insertBefore(l,t?a:a.nextSibling);var c=function(e){for(var t=l.href,n=s.length;n--;)if(s[n].href===t)return e();setTimeout(function(){c(e)})};return l.onloadcssdefined=c,c(function(){l.media=n||"all"}),l},e.loadLocalStorageCSS=function(l,o){n(l,o)||r.cookie.indexOf(l)>-1?a(l,o):t(e,"load",function(){a(l,o)})}}(this);</script>
+
+	<!-- Load Fonts CSS Start -->
+	<script>
+		loadCSS( "css/fonts.min.css?ver=1.0.0", false, "all" ); // Loading fonts, if the site is located in a subfolder
+		// loadLocalStorageCSS( "webfonts", "css/fonts.min.css?ver=1.0.0" ); // Loading fonts, if the site is at the root
+	</script>
+	<!-- Load Fonts CSS End -->
+
+	<!-- Load Custom CSS Start -->
+	
+	<script>loadCSS( "css/bootstrap.min.css?ver=1.0.0", false, "all" );</script>
+	<script>loadCSS( "http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css?ver=1.0.0", false, "all" );</script>
+	<script>loadCSS( "libs/slick/slick-theme.css?ver=1.0.0", false, "all" );</script>
+	<script>loadCSS( "libs/slick/slick.css?ver=1.0.0", false, "all" );</script>
+	<script>loadCSS( "css/main.min.css?ver=1.0.0", false, "all" );</script>
+	<!-- Load Custom CSS End -->
+
+	<!-- Load Custom CSS Compiled without JS Start -->
+	<noscript>
+		<link rel="stylesheet" href="css/fonts.min.css">
+		<link rel="stylesheet" href="css/main.min.css">
+	</noscript>
+	<!-- Load Custom CSS Compiled without JS End -->
+
+	<!-- Custom Browsers Color Start -->
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#000">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#000">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#000">
+	<!-- Custom Browsers Color End -->
+
+</head>
+
+<body>
+	<!--Header-->
+	<header class="sec-header">
+		<!--Header Nav-->
+		<nav class="navbar navbar-fixed-top navbar-inverse">
+			<div class="container">
+				<div class="navbar-header">
+					<a href="" class="navbar-brand text-uppercase text-nowrap">B<span>u</span>rge<span>r</span>'s M<span>a</span>m<span>a</span></a>
+					<button class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+				<div class="collapse navbar-collapse" id="myNavbar">
+					<ul class="nav navbar-nav navbar-left">
+						<li class="dropdown">
+							<a href="" class="dropdown-toggle text-uppercase top-link-navbar" data-toggle="dropdown"><i class="icon ion-clipboard"></i>menu<span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li><a href="#" class="text-uppercase">pizzas</a></li>
+								<li><a href="#" class="text-uppercase">burgers</a></li>
+								<li><a href="#" class="text-uppercase">drinks</a></li>
+								<li><a href="#" class="text-uppercase">tosts</a></li>
+								<li><a href="#" class="text-uppercase">salads</a></li>
+								<li><a href="#" class="text-uppercase">deserts</a></li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a href="" class="dropdown-toggle text-uppercase top-link-navbar" data-toggle="dropdown"><i class="icon ion-map"></i>news<span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li><a href="#" class="text-uppercase">classic blog</a></li>
+								<li><a href="#" class="text-uppercase">grid blog</a></li>
+								<li><a href="#" class="text-uppercase">masonry blog</a></li>
+								<li><a href="#" class="text-uppercase">modern blog</a></li>
+								<li><a href="#" class="text-uppercase">blog post</a></li>
+							</ul>
+						</li>
+						<li><a href="" class="text-uppercase top-link-navbar"><i class="icon ion-compose"></i>contact</a></li>
+						<li class="dropdown">
+							<a href="" class="dropdown-toggle text-uppercase top-link-navbar" data-toggle="dropdown"><i class="icon ion-ios-albums-outline"></i>pages<span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li class="dropdown-header">Pages</li>
+								<li><a href="careers.html">Careers</a></li>
+								<li><a href="faq.html">FAQ</a></li>
+								<li><a href="deals.html">Deals</a></li>
+								<li><a href="coming-soon.html">Coming Soon</a></li>
+								<li><a href="404.html">404 Page</a></li>
+								<li><a href="503.html">503 Page</a></li>
+								<li><a href="search-results.html">Search Result</a></li>
+								<li><a href="maintenance.html">Maintenance Page</a></li>
+								<li><a href="privacy.html">Terms of Use</a></li>
+								<li><a href="member-profile.html">Member profile</a></li>
+								<li><a href="team.html">Our Team</a></li>
+								<li><a href="testimonials.html">Testimonials</a></li>
+							</ul>
+						</li>
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="callto:#"><i class="icon ion-ios-telephone-outline"></i> +7(911)911-91-91</a></li>
+						<li><a href="shop-cart.html" class="shop-cart-unit"><i class="icon ion-ios-cart"></i>0</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav><!--Header Nav END-->
+		<!--Header Carousel-->
+    <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+      <!-- Indicators -->
+			<ol class="carousel-indicators">
+				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				<li data-target="#myCarousel" data-slide-to="1"></li>
+				<li data-target="#myCarousel" data-slide-to="2"></li>
+			</ol>
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img src="img/carousel/carousel24.jpg" alt="">
+          <div class="carousel-caption">
+						<div class="row">
+							<div class="col-sm-6 col-md-5 col-lg-4 text-center">
+								<h4 class="text-uppercase"><em>New menu</em></h4>
+								<h1 class="text-uppercase">Pizza</h1>
+								<h3 class="text-uppercase">With seafood</h3>
+								<button class="btn btn-danger text-uppercase ">Order online</button>
+							</div>
+						</div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="img/carousel/carousel22.jpg" alt="">
+          <div class="carousel-caption">
+						<div class="row">
+							<div class="col-sm-6 col-md-5 col-lg-4">
+								<h6 class="text-uppercase text-center"><em>From our chief</em></h6>
+								<h2 class="text-uppercase text-center">Meet the</h2>
+								<h1 class="text-uppercase text-center">Legend</h1>
+								<h4 class="text-uppercase text-center">Burger california</h4>
+							</div>
+						</div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="img/carousel/carousel23.jpg" alt="">
+          <div class="carousel-caption">
+						<div class="row">
+							<div class="col-sm-6 col-md-5 col-lg-4">
+								<h3 class="text-uppercase text-center">Hot stuff</h3>
+								<h1 class="text-uppercase text-center">Burger</h1>
+								<h2 class="text-uppercase text-center">The mexican</h2>
+							</div>
+						</div>
+          </div> 
+        </div>
+      </div>
+    </div>
+    <!--Header Carousel END-->
+		<div class="container-fluid sec-offers">
+			<div class="row">
+				<div class="col-xs-12 col-sm-4">
+					<div class="thumbnail">
+						<a href="#">
+							<img src="img/special-offer/soffer-3.jpg" alt="">
+							<div class="caption text-center">
+								<h3>For Vegans</h3>
+								<p>Burger + French Fries + Drink</p>
+							</div>	
+						</a>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-4">
+					<div class="thumbnail">
+						<a href="#">
+							<img src="img/special-offer/soffer-4.jpg" alt="">
+							<div class="caption text-center">
+								<h3>Chilli Hot</h3>
+								<p>Availiable Every Day 9:00-23:00</p>
+							</div>	
+						</a>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-4">
+					<div class="thumbnail">
+						<a href="#">
+							<img src="img/special-offer/soffer-5.jpg" alt="">
+							<div class="caption text-center">
+								<h3>Cakes Specials</h3>
+								<p>Every Friday Only $0.99</p>
+							</div>	
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header><!--Header END-->
+	<!--Menu--> 
+	<div class="container-fluid sec-menu">
+		<h2 class="text-center text-capitalize">Our menu</h2>
+		<ul class="nav nav-pills text-center">
+			<li class="active"><a data-toggle="pill" href="#burger">Burgers</a></li>
+			<li><a data-toggle="pill" href="#toasts">Toasts</a></li>
+			<li><a data-toggle="pill" href="#pizzas">Pizzas</a></li>
+			<li><a data-toggle="pill" href="#salads">Salads</a></li>
+			<li><a data-toggle="pill" href="#drinks">Drinks</a></li>
+			<li><a data-toggle="pill" href="#desserts">Desserts</a></li>
+		</ul>
+		<div class="tab-content">
+			<div id="burger" class="tab-pane fade in active">
+				<div class="slider">
+					<div class="text-center">
+						<img class="img-resposive" src="img/burger/burger1.png" alt="">
+						<h5 class="product-name burger"><a href="menu.html" tabindex="1">Chicken Bacon Classic</a></h5>
+						<p class="product-property burger"><em>A grilled seasoned chicken breast topped with melted Swiss cheese, bacon and a creamy pepper sauce. Served with lettuce, tomato, red onions and pickles.</em></p>
+						<p class="product-price burger">13.90</p>
+						<a href="#" class="btn btn-danger text-uppercase" role="button">Order Now</a>
+					</div>
+					<div class="text-center">
+						<img class="img-resposive" src="img/burger/burger2.png" alt="">
+						<h5 class="product-name burger"><a href="menu.html" tabindex="1">Grass-Fed Sunrise Burger</a></h5>
+						<p class="product-property burger"><em>Cage-free fried egg*, pepper Jack, bacon, lettuce, red onion & tomato with Chili's Signature sauce.</em></p>
+						<p class="product-price burger">13,00</p>
+						<a href="#" class="btn btn-danger text-uppercase" role="button">Order Now</a>
+					</div>
+					<div class="text-center">
+						<img class="img-resposive" src="img/burger/burger3.png" alt="">
+						<h5 class="product-name burger"><a href="menu.html" tabindex="1">Ultimate Bacon Burger</a></h5>
+						<p class="product-property burger"><em>Double bacon, cheddar, pickles, lettuce, red onion, tomato, jalapeño aioli, spicy Buffalo sauce & honey chipotle sauce.</em></p>
+						<p class="product-price burger">12,99</p>
+						<a href="#" class="btn btn-danger text-uppercase" role="button">Order Now</a>
+					</div>
+					<div class="text-center">
+						<img class="img-resposive" src="img/burger/burger4.png" alt="">
+						<h5 class="product-name burger"><a href="menu.html" tabindex="1">Double Cheeseburger</a></h5>
+						<p class="product-property burger"><em>Your choice of American, Swiss or Cheddar cheese tops two hand-pressed 100% beef patties. Served with lettuce, tomato, red onions and pickles.</em></p>
+						<p class="product-price burger">8,50</p>
+						<a href="#" class="btn btn-danger text-uppercase" role="button">Order Now</a>
+					</div>
+					<div class="text-center">
+						<img class="img-resposive" src="img/burger/burger7.png" alt="">
+						<h5 class="product-name burger"><a href="menu.html" tabindex="1">NEW! Bacon Gouda Burger</a></h5>
+						<p class="product-property burger"><em>Four bacon strips, caramelized onions and shredded Italian cheeses top a hand-pressed 100% beef patty covered with Gouda cheese sauce. Served with lettuce, tomato, red onions and pickles on a brioche bun.</em></p>
+						<p class="product-price burger">12,70</p>
+						<a href="#" class="btn btn-danger text-uppercase" role="button">Order Now</a>
+					</div>
+					<div class="text-center">
+						<img class="img-resposive" src="img/burger/burger8.png" alt="">
+						<h5 class="product-name burger"><a href="menu.html" tabindex="1">Slamburger</a></h5>
+						<p class="product-property burger"><em>Crispy hash browns, an egg* cooked to order and two bacon strips top a hand-pressed 100% beef patty covered with Pepper Jack queso.</em></p>
+						<p class="product-price burger">10,99</p>
+						<a href="#" class="btn btn-danger text-uppercase" role="button">Order Now</a>
+					</div>
+					<div class="text-center">
+						<img class="img-resposive" src="img/burger/burger10.png" alt="">
+						<h5 class="product-name burger"><a href="menu.html" tabindex="1">NEW! Honey Jalapeño Burger</a></h5>
+						<p class="product-property burger"><em>A hand-pressed 100% beef patty topped with Cheddar cheese, thick-cut honey jalapeño bacon, jalapeños and creamy Sriracha sauce. Served with lettuce, tomato, red onions and pickles on a brioche bun.</em></p>
+						<p class="product-price burger">14,60</p>
+						<a href="#" class="btn btn-danger text-uppercase" role="button">Order Now</a>
+					</div>
+					<div class="text-center">
+						<img class="img-resposive" src="img/burger/burger11.png" alt="">
+						<h5 class="product-name burger"><a href="menu.html" tabindex="1">The American</a></h5>
+						<p class="product-property burger"><em>Caramelized onions, cheddar cheese, pickles, ketchup, and mustard.</em></p>
+						<p class="product-price burger">7,99</p>
+						<a href="#" class="btn btn-danger text-uppercase" role="button">Order Now</a>
+					</div>
+					<div class="text-center">
+						<img class="img-resposive" src="img/burger/burger12.png" alt="">
+						<h5 class="product-name burger"><a href="menu.html" tabindex="1">Crispy Flathead Burger </a></h5>
+						<p class="product-property burger"><em>Crumbed flathead fillets, Aussie cheddar cheese, sliced tomato, sliced beetroot, Hogslaw, cos lettuce and creamy tartare sauce.</em></p>
+						<p class="product-price burger">16,50</p>
+						<a href="#" class="btn btn-danger text-uppercase" role="button">Order Now</a>
+					</div>
+					<div class="text-center">
+						<img class="img-resposive" src="img/burger/burger13.png" alt="">
+						<h5 class="product-name burger"><a href="menu.html" tabindex="1">Grilled Beef & Brie Burger </a></h5>
+						<p class="product-property burger"><em>Grilled beef, triple cream brie, sliced tomato, sliced beetroot, Hogslaw, cos lettuce, grilled onions and horseradish aioli.</em></p>
+						<p class="product-price burger">17,00</p>
+						<a href="#" class="btn btn-danger text-uppercase" role="button">Order Now</a>
+					</div>
+					<div class="text-center">
+						<img class="img-resposive" src="img/burger/burger14.png" alt="">
+						<h5 class="product-name burger"><a href="menu.html" tabindex="1">Crispy Chicken, Brie & Bacon Burger </a></h5>
+						<p class="product-property burger"><em>Panko crumbed chicken breast, triple cream brie, sliced tomato, sliced beetroot, Hogslaw, cos lettuce, grilled smoky bacon and tomato chilli jam. Add sliced avocado for 3.95</em></p>
+						<p class="product-price burger">15,95</p>
+						<a href="#" class="btn btn-danger text-uppercase" role="button">Order Now</a>
+					</div>
+					<div class="text-center">
+						<img class="img-resposive" src="img/burger/burger15.png" alt="">
+						<h5 class="product-name burger"><a href="menu.html" tabindex="1">Cheese Burger In Paradise </a></h5>
+						<p class="product-property burger"><em>Grilled beef, Aussie cheddar cheese, sliced tomato, sliced beetroot, Hogslaw, cos lettuce and hickory smoked BBQ sauce. For extra beef and cheese add 3.50</em></p>
+						<p class="product-price burger">14,95</p>
+						<a href="#" class="btn btn-danger text-uppercase" role="button">Order Now</a>
+					</div>
+					<div class="text-center">
+						<img class="img-resposive" src="img/burger/burger16.png" alt="">
+						<h5 class="product-name burger"><a href="menu.html" tabindex="1">Grilled Lamb Burger </a></h5>
+						<p class="product-property burger"><em>Grilled lamb, cheddar cheese, sliced tomato, sliced beetroot, Hogslaw, cos lettuce, grilled onions and mint sour cream.</em></p>
+						<p class="product-price burger">12,99</p>
+						<a href="#" class="btn btn-danger text-uppercase" role="button">Order Now</a>
+					</div>
+					<div class="text-center">
+						<img class="img-resposive" src="img/burger/burger17.png" alt="">
+						<h5 class="product-name burger"><a href="menu.html" tabindex="1">The Melt</a></h5>
+						<p class="product-property burger"><em>Mozzarella cheese, cheddar cheese, beef bacon, and BBQ sauce.</em></p>
+						<p class="product-price burger">9,60</p>
+						<a href="#" class="btn btn-danger text-uppercase" role="button">Order Now</a>
+					</div>
+					<div class="text-center">
+						<img class="img-resposive" src="img/burger/burger18.png" alt="">
+						<h5 class="product-name burger"><a href="menu.html" tabindex="1">The Hangover</a></h5>
+						<p class="product-property burger"><em>Onion ring, beef bacon, curry ketchup, fried egg, and cheddar cheese.</em></p>
+						<p class="product-price burger">7,99</p>
+						<a href="#" class="btn btn-danger text-uppercase" role="button">Order Now</a>
+					</div>
+					<div class="text-center">
+						<img class="img-resposive" src="img/burger/burger19.png" alt="">
+						<h5 class="product-name burger"><a href="menu.html" tabindex="1">The Spicy Bold BBQ</a></h5>
+						<p class="product-property burger"><em>Red onion, cheddar cheese, beef bacon, chipotle mayo, and BBQ sauce.</em></p>
+						<p class="product-price burger">12,99</p>
+						<a href="#" class="btn btn-danger text-uppercase" role="button">Order Now</a>
+					</div>
+					<div class="text-center">
+						<img class="img-resposive" src="img/burger/burger20.png" alt="">
+						<h5 class="product-name burger"><a href="menu.html" tabindex="1">Guacamole Burger</a></h5>
+						<p class="product-property burger"><em>Guacamole, melted cheese, jalapenos, red & green bell peppers, caramelized onions & cumin-lime sour cream.</em></p>
+						<p class="product-price burger">13,50</p>
+						<a href="#" class="btn btn-danger text-uppercase" role="button">Order Now</a>
+					</div>
+					<div class="text-center">
+						<img class="img-resposive" src="img/burger/burger21.png" alt="">
+						<h5 class="product-name burger"><a href="menu.html" tabindex="1">PALACE CLASSIC</a></h5>
+						<p class="product-property burger"><em>American cheese, lettuce, tomato, red onion </em></p>
+						<p class="product-price burger">10,00</p>
+						<a href="#" class="btn btn-danger text-uppercase" role="button">Order Now</a>
+					</div>
+				</div>
+			</div>
+			<div id="toasts" class="tab-pane fade">
+				<div class="slider">
+					<div class="text-center">
+						<img src="img/toast/toast1.png" alt="">
+						<h5 class="product-name toasts"><a href="menu.html" tabindex="2">The Super Bird</a></h5>
+						<p class="product-property toasts"><em>Thinly sliced breast with melted Swiss cheese, crisp bacon and tomato on grilled sourdough.</em></p>
+						<p class="product-price toasts"></p>
+						<a href="#" class="btn btn-danger text-uppercase" role="button">Order Now</a>
+					</div>
+					<div class="text-center">
+						<img src="img/toast/toast2.png" alt="">
+						<h5 class="product-name toasts"><a href="menu.html" tabindex="2"></a></h5>
+						<p class="product-property toasts"><em></em></p>
+						<p class="product-price toasts"></p>
+						<a href="#" class="btn btn-danger text-uppercase" role="button">Order Now</a>
+					</div>
+					<div class="text-center">
+						<img src="img/toast/toast3.png" alt="">
+						<h5 class="product-name toasts"><a href="menu.html" tabindex="2"></a></h5>
+						<p class="product-property toasts"><em></em></p>
+						<p class="product-price toasts"></p>
+						<a href="#" class="btn btn-danger text-uppercase" role="button">Order Now</a>
+					</div>
+					<div class="text-center">
+						<img src="img/toast/toast4.png" alt="">
+						<h5 class="product-name toasts"><a href="menu.html" tabindex="2"></a></h5>
+						<p class="product-property toasts"><em></em></p>
+						<p class="product-price toasts"></p>
+						<a href="#" class="btn btn-danger text-uppercase" role="button">Order Now</a>
+					</div>
+					<div class="text-center">
+						<img src="img/toast/toast5.png" alt="">
+						<h5 class="product-name toasts"><a href="menu.html" tabindex="2"></a></h5>
+						<p class="product-property toasts"><em></em></p>
+						<p class="product-price toasts"></p>
+						<a href="#" class="btn btn-danger text-uppercase" role="button">Order Now</a>
+					</div>
+					<div class="text-center">
+						<img src="img/toast/toast6.png" alt="">
+						<h5 class="product-name toasts"><a href="menu.html" tabindex="2"></a></h5>
+						<p class="product-property toasts"><em></em></p>
+						<p class="product-price toasts"></p>
+						<a href="#" class="btn btn-danger text-uppercase" role="button">Order Now</a>
+					</div>
+					<div class="text-center">
+						<img src="img/toast/toast7.png" alt="">
+						<h5 class="product-name toasts"><a href="menu.html" tabindex="2"></a></h5>
+						<p class="product-property toasts"><em></em></p>
+						<p class="product-price toasts"></p>
+						<a href="#" class="btn btn-danger text-uppercase" role="button">Order Now</a>
+					</div>
+					<div class="text-center">
+						<img src="img/toast/toast8.png" alt="">
+						<h5 class="product-name toasts"><a href="menu.html" tabindex="2"></a></h5>
+						<p class="product-property toasts"><em></em></p>
+						<p class="product-price toasts"></p>
+						<a href="#" class="btn btn-danger text-uppercase" role="button">Order Now</a>
+					</div>
+					<div class="text-center">
+						<img src="img/toast/toast9.png" alt="">
+						<h5 class="product-name toasts"><a href="menu.html" tabindex="2"></a></h5>
+						<p class="product-property toasts"><em></em></p>
+						<p class="product-price toasts"></p>
+						<a href="#" class="btn btn-danger text-uppercase" role="button">Order Now</a>
+					</div>
+					<div class="text-center">
+						<img src="img/toast/toast10.png" alt="">
+						<h5 class="product-name toasts"><a href="menu.html" tabindex="2"></a></h5>
+						<p class="product-property toasts"><em></em></p>
+						<p class="product-price toasts"></p>
+						<a href="#" class="btn btn-danger text-uppercase" role="button">Order Now</a>
+					</div>
+					<div class="text-center">
+						<img src="img/toast/toast11.png" alt="">
+						<h5 class="product-name toasts"><a href="menu.html" tabindex="2"></a></h5>
+						<p class="product-property toasts"><em></em></p>
+						<p class="product-price toasts"></p>
+						<a href="#" class="btn btn-danger text-uppercase" role="button">Order Now</a>
+					</div>
+					<div class="text-center">
+						<img src="img/toast/toast12.png" alt="">
+						<h5 class="product-name toasts"><a href="menu.html" tabindex="2"></a></h5>
+						<p class="product-property toasts"><em></em></p>
+						<p class="product-price toasts"></p>
+						<a href="#" class="btn btn-danger text-uppercase" role="button">Order Now</a>
+					</div>
+					<div class="text-center">
+						<img src="img/toast/toast13.png" alt="">
+						<h5 class="product-name toasts"><a href="menu.html" tabindex="2"></a></h5>
+						<p class="product-property toasts"><em></em></p>
+						<p class="product-price toasts"></p>
+						<a href="#" class="btn btn-danger text-uppercase" role="button">Order Now</a>
+					</div>
+					<div class="text-center">
+						<img src="img/toast/toast14.png" alt="">
+						<h5 class="product-name toasts"><a href="menu.html" tabindex="2"></a></h5>
+						<p class="product-property toasts"><em></em></p>
+						<p class="product-price toasts"></p>
+						<a href="#" class="btn btn-danger text-uppercase" role="button">Order Now</a>
+					</div>
+					<div class="text-center">
+						<img src="img/toast/toast15.png" alt="">
+						<h5 class="product-name toasts"><a href="menu.html" tabindex="2"></a></h5>
+						<p class="product-property toasts"><em></em></p>
+						<p class="product-price toasts"></p>
+						<a href="#" class="btn btn-danger text-uppercase" role="button">Order Now</a>
+					</div>
+					<div class="text-center">
+						<img src="img/toast/toast16.png" alt="">
+						<h5 class="product-name toasts"><a href="menu.html" tabindex="2"></a></h5>
+						<p class="product-property toasts"><em></em></p>
+						<p class="product-price toasts"></p>
+						<a href="#" class="btn btn-danger text-uppercase" role="button">Order Now</a>
+					</div>
+					<div class="text-center">
+						<img src="img/toast/toast17.png" alt="">
+						<h5 class="product-name toasts"><a href="menu.html" tabindex="2"></a></h5>
+						<p class="product-property toasts"><em></em></p>
+						<p class="product-price toasts"></p>
+						<a href="#" class="btn btn-danger text-uppercase" role="button">Order Now</a>
+					</div>
+					<div class="text-center">
+						<img src="img/toast/toast18.png" alt="">
+						<h5 class="product-name toasts"><a href="menu.html" tabindex="2"></a></h5>
+						<p class="product-property toasts"><em></em></p>
+						<p class="product-price toasts"></p>
+						<a href="#" class="btn btn-danger text-uppercase" role="button">Order Now</a>
+					</div>
+				</div>
+			</div>
+			<div id="pizzas" class="tab-pane fade">
+				<div class="slider">
+					<div class="text-center">
+						<img src="img/pizza/pizza1.png" alt="">
+						<h5 class="product-name pizza"><a href="menu.html" tabindex="3">Tandoori Chicken</a></h5>
+						<p class="product-property pizza"><em>Seasoned chicken, Tandoori spices, fresh tomato, red onion, capsicum, topped with a mint & coriander sauce</em></p>
+						<p class="product-price pizza">10,95</p>
+						<a href="#" class="btn btn-danger text-uppercase" role="button">Order Now</a>
+					</div>
+					<div class="text-center">
+						<img src="img/pizza/pizza2.png" alt="">
+						<h5 class="product-name pizza"><a href="menu.html" tabindex="3">Barro's Special</a></h5>
+						<p class="product-property pizza"><em>Pepperoni, Onion, Mushroom, Green Pepper, Ham</em></p>
+						<p class="product-price pizza">9.95</p>
+						<a href="#" class="btn btn-danger text-uppercase" role="button">Order Now</a>
+					</div>
+					<div class="text-center">
+						<img src="img/pizza/pizza3.png" alt="">
+						<h5 class="product-name pizza"><a href="menu.html" tabindex="3">Hot Wing</a></h5>
+						<p class="product-property pizza"><em>Chicken, Hot Wing Sauce, Mozzarella and Cheddar Cheese.</em></p>
+						<p class="product-price pizza">11,59</p>
+						<a href="#" class="btn btn-danger text-uppercase" role="button">Order Now</a>
+					</div>
+					<div class="text-center">
+						<img src="img/pizza/pizza4.png" alt="">
+						<h5 class="product-name pizza"><a href="menu.html" tabindex="3">Old School Sausage & Pepperoni</a></h5>
+						<p class="product-property pizza"><em>homemade pizza sauce, mozzarella cheese, thick-cut spicy pepperoni, hand-pinched Italian sausage and garlic-roasted tomatoes</em></p>
+						<p class="product-price pizza">13,95</p>
+						<a href="#" class="btn btn-danger text-uppercase" role="button">Order Now</a>
+					</div>
+					<div class="text-center">
+						<img src="img/pizza/pizza5.png" alt="">
+						<h5 class="product-name pizza"><a href="menu.html" tabindex="3">Bacon Cheeseburger</a></h5>
+						<p class="product-property pizza"><em>1000 Island, beef, applewood smoked bacon, cheddar and mozzarella, topped with tomatoes and pickles</em></p>
+						<p class="product-price pizza">12,00</p>
+						<a href="#" class="btn btn-danger text-uppercase" role="button">Order Now</a>
+					</div>
+					<div class="text-center">
+						<img src="img/pizza/pizza6.png" alt="">
+						<h5 class="product-name pizza"><a href="menu.html" tabindex="3">Spicy Southwestern</a></h5>
+						<p class="product-property pizza"><em>Chicken, Spicy BBQ Sauce, Mozzarella and Cheddar Cheese</em></p>
+						<p class="product-price pizza">9,95</p>
+						<a href="#" class="btn btn-danger text-uppercase" role="button">Order Now</a>
+					</div>
+					<div class="text-center">
+						<img src="img/pizza/pizza8.png" alt="">
+						<h5 class="product-name pizza"><a href="menu.html" tabindex="3">Vegetarian Special</a></h5>
+						<p class="product-property pizza"><em>Onion, Mushroom, Black Olive, Green Pepper, Tomato</em></p>
+						<p class="product-price pizza">7,95</p>
+						<a href="#" class="btn btn-danger text-uppercase" role="button">Order Now</a>
+					</div>
+					<div class="text-center">
+						<img src="img/pizza/pizza9.png" alt="">
+						<h5 class="product-name pizza"><a href="menu.html" tabindex="3">ham & yeezy</a></h5>
+						<p class="product-property pizza"><em>ham, vodka sauce, red onion, caciocavallo, smoked mozzarella, pickled fresno chilies</em></p>
+						<p class="product-price pizza">17,50</p>
+						<a href="#" class="btn btn-danger text-uppercase" role="button">Order Now</a>
+					</div>
+					<div class="text-center">
+						<img src="img/pizza/pizza11.png" alt="">
+						<h5 class="product-name pizza"><a href="menu.html" tabindex="3">Primavera</a></h5>
+						<p class="product-property pizza"><em>peas, tendrils, asparagus, green garlic, ricotta & mozzarella</em></p>
+						<p class="product-price pizza">14,95</p>
+						<a href="#" class="btn btn-danger text-uppercase" role="button">Order Now</a>
+					</div>
+					<div class="text-center">
+						<img src="img/pizza/pizza12.png" alt="">
+						<h5 class="product-name pizza"><a href="menu.html" tabindex="3">SUPREME </a></h5>
+						<p class="product-property pizza"><em>tomato sauce, mozzarella, pepperoni, sausage, olive, red onion, red pepper, & basil</em></p>
+						<p class="product-price pizza">18,00</p>
+						<a href="#" class="btn btn-danger text-uppercase" role="button">Order Now</a>
+					</div>
+					<div class="text-center">
+						<img src="img/pizza/pizza13.png" alt="">
+						<h5 class="product-name pizza"><a href="menu.html" tabindex="3">SAUSAGE-KALE </a></h5>
+						<p class="product-property pizza"><em>grandma tomato sauce, mozzarella, house made sausage, kale & parmesan</em></p>
+						<p class="product-price pizza">18,95</p>
+						<a href="#" class="btn btn-danger text-uppercase" role="button">Order Now</a>
+					</div>
+					<div class="text-center">
+						<img src="img/pizza/pizza14.png" alt="">
+						<h5 class="product-name pizza"><a href="menu.html" tabindex="3">BBQ CHICKEN </a></h5>
+						<p class="product-property pizza"><em>tomato sauce, smoked chicken, pickled jalapeno, red onion, cilantro, bbq sauce</em></p>
+						<p class="product-price pizza">17,95</p>
+						<a href="#" class="btn btn-danger text-uppercase" role="button">Order Now</a>
+					</div>
+					<div class="text-center">
+						<img src="img/pizza/pizza15.png" alt="">
+						<h5 class="product-name pizza"><a href="menu.html" tabindex="3">DUCK EGG </a></h5>
+						<p class="product-property pizza"><em></em></p>
+						<p class="product-price pizza"></p>
+						<a href="#" class="btn btn-danger text-uppercase" role="button">Order Now</a>
+					</div>
+					<div class="text-center">
+						<img src="img/pizza/pizza16.png" alt="">
+						<h5 class="product-name pizza"><a href="menu.html" tabindex="3"></a></h5>
+						<p class="product-property pizza"><em>pancetta, panna, potato, rosemary, mozzarella, parmesan</em></p>
+						<p class="product-price pizza">16,95</p>
+						<a href="#" class="btn btn-danger text-uppercase" role="button">Order Now</a>
+					</div>
+					<div class="text-center">
+						<img src="img/pizza/pizza17.png" alt="">
+						<h5 class="product-name pizza"><a href="menu.html" tabindex="3">The Broadway</a></h5>
+						<p class="product-property pizza"><em>Mozzarella, Italian Sausage, Cherry Peppers, Red Onion, Black Olives*</em></p>
+						<p class="product-price pizza">16,50</p>
+						<a href="#" class="btn btn-danger text-uppercase" role="button">Order Now</a>
+					</div>
+					<div class="text-center">
+						<img src="img/pizza/pizza18.png" alt="">
+						<h5 class="product-name pizza"><a href="menu.html" tabindex="3">The Forest </a></h5>
+						<p class="product-property pizza"><em>Mozzarella, House made Ricotta Cheese, Red Onion, Garlic, Cherry Pepper*</em></p>
+						<p class="product-price pizza"17,95></p>
+						<a href="#" class="btn btn-danger text-uppercase" role="button">Order Now</a>
+					</div>
+				</div>
+			</div>
+			<div id="salads" class="tab-pane fade">
+				<div class="slider">
+					<div class="text-center">
+						<img src="img/salads/salad1.png" alt="">
+						<h5 class="product-name salad"><a href="menu.html" tabindex="4"></a></h5>
+						<p class="product-property salad"><em></em></p>
+						<p class="product-price salad"></p>
+						<a href="#" class="btn btn-danger text-uppercase" role="button">Order Now</a>
+					</div>
+					<div class="text-center">
+						<img src="img/salads/salad2.png" alt="">
+						<h5 class="product-name salad"><a href="menu.html" tabindex="4"></a></h5>
+						<p class="product-property salad"><em></em></p>
+						<p class="product-price salad"></p>
+						<a href="#" class="btn btn-danger text-uppercase" role="button">Order Now</a>
+					</div>
+					<div class="text-center">
+						<img src="img/salads/salad3.png" alt="">
+						<h5 class="product-name salad"><a href="menu.html" tabindex="4"></a></h5>
+						<p class="product-property salad"><em></em></p>
+						<p class="product-price salad"></p>
+						<a href="#" class="btn btn-danger text-uppercase" role="button">Order Now</a>
+					</div>
+					<div class="text-center">
+						<img src="img/salads/salad4.png" alt="">
+						<h5 class="product-name salad"><a href="menu.html" tabindex="4"></a></h5>
+						<p class="product-property salad"><em></em></p>
+						<p class="product-price salad"></p>
+						<a href="#" class="btn btn-danger text-uppercase" role="button">Order Now</a>
+					</div>
+					<div class="text-center">
+						<img src="img/salads/salad5.png" alt="">
+						<h5 class="product-name salad"><a href="menu.html" tabindex="4"></a></h5>
+						<p class="product-property salad"><em></em></p>
+						<p class="product-price salad"></p>
+						<a href="#" class="btn btn-danger text-uppercase" role="button">Order Now</a>
+					</div>
+					<div class="text-center">
+						<img src="img/salads/salad6.png" alt="">
+						<h5 class="product-name salad"><a href="menu.html" tabindex="4"></a></h5>
+						<p class="product-property salad"><em></em></p>
+						<p class="product-price salad"></p>
+						<a href="#" class="btn btn-danger text-uppercase" role="button">Order Now</a>
+					</div>
+					<div class="text-center">
+						<img src="img/salads/salad7.png" alt="">
+						<h5 class="product-name salad"><a href="menu.html" tabindex="4"></a></h5>
+						<p class="product-property salad"><em></em></p>
+						<p class="product-price salad"></p>
+						<a href="#" class="btn btn-danger text-uppercase" role="button">Order Now</a>
+					</div>
+					<div class="text-center">
+						<img src="img/salads/salad8.png" alt="">
+						<h5 class="product-name salad"><a href="menu.html" tabindex="4"></a></h5>
+						<p class="product-property salad"><em></em></p>
+						<p class="product-price salad"></p>
+						<a href="#" class="btn btn-danger text-uppercase" role="button">Order Now</a>
+					</div>
+					<div class="text-center">
+						<img src="img/salads/salad9.png" alt="">
+						<h5 class="product-name salad"><a href="menu.html" tabindex="4"></a></h5>
+						<p class="product-property salad"><em></em></p>
+						<p class="product-price salad"></p>
+						<a href="#" class="btn btn-danger text-uppercase" role="button">Order Now</a>
+					</div>
+					<div class="text-center">
+						<img src="img/salads/salad10.png" alt="">
+						<h5 class="product-name salad"><a href="menu.html" tabindex="4"></a></h5>
+						<p class="product-property salad"><em></em></p>
+						<p class="product-price salad"></p>
+						<a href="#" class="btn btn-danger text-uppercase" role="button">Order Now</a>
+					</div>
+				</div>
+			</div>
+			<div id="drinks" class="tab-pane fade">
+				<div class="slider">
+					<div class="text-center">
+						<img src="img/drinks/drink1.png" alt="">
+						<h5 class="product-name drink"><a href="menu.html" tabindex="5"></a></h5>
+						<p class="product-property drink"><em></em></p>
+						<p class="product-price drink"></p>
+						<a href="#" class="btn btn-danger text-uppercase" role="button">Order Now</a>
+					</div>
+					<div class="text-center">
+						<img src="img/drinks/drink3.png" alt="">
+						<h5 class="product-name drink"><a href="menu.html" tabindex="5"></a></h5>
+						<p class="product-property drink"><em></em></p>
+						<p class="product-price drink"></p>
+						<a href="#" class="btn btn-danger text-uppercase" role="button">Order Now</a>
+					</div>
+					<div class="text-center">
+						<img src="img/drinks/drink4.png" alt="">
+						<h5 class="product-name drink"><a href="menu.html" tabindex="5"></a></h5>
+						<p class="product-property drink"><em></em></p>
+						<p class="product-price drink"></p>
+						<a href="#" class="btn btn-danger text-uppercase" role="button">Order Now</a>
+					</div>
+					<div class="text-center">
+						<img src="img/drinks/drink5.png" alt="">
+						<h5 class="product-name drink"><a href="menu.html" tabindex="5"></a></h5>
+						<p class="product-property drink"><em></em></p>
+						<p class="product-price drink"></p>
+						<a href="#" class="btn btn-danger text-uppercase" role="button">Order Now</a>
+					</div>
+					<div class="text-center">
+						<img src="img/drinks/drink6.png" alt="">
+						<h5 class="product-name drink"><a href="menu.html" tabindex="5"></a></h5>
+						<p class="product-property drink"><em></em></p>
+						<p class="product-price drink"></p>
+						<a href="#" class="btn btn-danger text-uppercase" role="button">Order Now</a>
+					</div>
+					<div class="text-center">
+						<img src="img/drinks/drink7.png" alt="">
+						<h5 class="product-name drink"><a href="menu.html" tabindex="5"></a></h5>
+						<p class="product-property drink"><em></em></p>
+						<p class="product-price drink"></p>
+						<a href="#" class="btn btn-danger text-uppercase" role="button">Order Now</a>
+					</div>
+					<div class="text-center">
+						<img src="img/drinks/drink8.png" alt="">
+						<h5 class="product-name drink"><a href="menu.html" tabindex="5"></a></h5>
+						<p class="product-property drink"><em></em></p>
+						<p class="product-price drink"></p>
+						<a href="#" class="btn btn-danger text-uppercase" role="button">Order Now</a>
+					</div>
+					<div class="text-center">
+						<img src="img/drinks/drink9.png" alt="">
+						<h5 class="product-name drink"><a href="menu.html" tabindex="5"></a></h5>
+						<p class="product-property drink"><em></em></p>
+						<p class="product-price drink"></p>
+						<a href="#" class="btn btn-danger text-uppercase" role="button">Order Now</a>
+					</div>
+					<div class="text-center">
+						<img src="img/drinks/drink10.png" alt="">
+						<h5 class="product-name drink"><a href="menu.html" tabindex="5"></a></h5>
+						<p class="product-property drink"><em></em></p>
+						<p class="product-price drink"></p>
+						<a href="#" class="btn btn-danger text-uppercase" role="button">Order Now</a>
+					</div>
+					<div class="text-center">
+						<img src="img/drinks/drink11.png" alt="">
+						<h5 class="product-name drink"><a href="menu.html" tabindex="5"></a></h5>
+						<p class="product-property drink"><em></em></p>
+						<p class="product-price drink"></p>
+						<a href="#" class="btn btn-danger text-uppercase" role="button">Order Now</a>
+					</div>
+					<div class="text-center">
+						<img src="img/drinks/drink2.png" alt="">
+						<h5 class="product-name drink"><a href="menu.html" tabindex="5"></a></h5>
+						<p class="product-property drink"><em></em></p>
+						<p class="product-price drink"></p>
+						<a href="#" class="btn btn-danger text-uppercase" role="button">Order Now</a>
+					</div>
+					<div class="text-center">
+						<img src="img/drinks/drink13.png" alt="">
+						<h5 class="product-name drink"><a href="menu.html" tabindex="5"></a></h5>
+						<p class="product-property drink"><em></em></p>
+						<p class="product-price drink"></p>
+						<a href="#" class="btn btn-danger text-uppercase" role="button">Order Now</a>
+					</div>
+					<div class="text-center">
+						<img src="img/drinks/drink14.png" alt="">
+						<h5 class="product-name drink"><a href="menu.html" tabindex="5"></a></h5>
+						<p class="product-property drink"><em></em></p>
+						<p class="product-price drink"></p>
+						<a href="#" class="btn btn-danger text-uppercase" role="button">Order Now</a>
+					</div>
+					<div class="text-center">
+						<img src="img/drinks/drink15.png" alt="">
+						<h5 class="product-name drink"><a href="menu.html" tabindex="5"></a></h5>
+						<p class="product-property drink"><em></em></p>
+						<p class="product-price drink"></p>
+						<a href="#" class="btn btn-danger text-uppercase" role="button">Order Now</a>
+					</div>
+				</div>
+			</div>
+			<div id="desserts" class="tab-pane fade">
+				<div class="slider">
+					<div class="text-center">
+						<img src="img/desserts/dessert1.png" alt="">
+						<h5 class="product-name dessert"><a href="menu.html" tabindex="5"></a></h5>
+						<p class="product-property dessert"><em></em></p>
+						<p class="product-price dessert"></p>
+						<a href="#" class="btn btn-danger text-uppercase" role="button">Order Now</a>
+					</div>
+					<div class="text-center">
+						<img src="img/desserts/dessert2.png" alt="">
+						<h5 class="product-name dessert"><a href="menu.html" tabindex="5"></a></h5>
+						<p class="product-property dessert"><em></em></p>
+						<p class="product-price dessert"></p>
+						<a href="#" class="btn btn-danger text-uppercase" role="button">Order Now</a>
+					</div>
+					<div class="text-center">
+						<img src="img/desserts/dessert3.png" alt="">
+						<h5 class="product-name dessert"><a href="menu.html" tabindex="5"></a></h5>
+						<p class="product-property dessert"><em></em></p>
+						<p class="product-price dessert"></p>
+						<a href="#" class="btn btn-danger text-uppercase" role="button">Order Now</a>
+					</div>
+					<div class="text-center">
+						<img src="img/desserts/dessert4.png" alt="">
+						<h5 class="product-name dessert"><a href="menu.html" tabindex="5"></a></h5>
+						<p class="product-property dessert"><em></em></p>
+						<p class="product-price dessert"></p>
+						<a href="#" class="btn btn-danger text-uppercase" role="button">Order Now</a>
+					</div>
+					<div class="text-center">
+						<img src="img/desserts/dessert5.png" alt="">
+						<h5 class="product-name dessert"><a href="menu.html" tabindex="5"></a></h5>
+						<p class="product-property dessert"><em></em></p>
+						<p class="product-price dessert"></p>
+						<a href="#" class="btn btn-danger text-uppercase" role="button">Order Now</a>
+					</div>
+					<div class="text-center">
+						<img src="img/desserts/dessert6.png" alt="">
+						<h5 class="product-name dessert"><a href="menu.html" tabindex="5"></a></h5>
+						<p class="product-property dessert"><em></em></p>
+						<p class="product-price dessert"></p>
+						<a href="#" class="btn btn-danger text-uppercase" role="button">Order Now</a>
+					</div>
+					<div class="text-center">
+						<img src="img/desserts/dessert8.png" alt="">
+						<h5 class="product-name dessert"><a href="menu.html" tabindex="5"></a></h5>
+						<p class="product-property dessert"><em></em></p>
+						<p class="product-price dessert"></p>
+						<a href="#" class="btn btn-danger text-uppercase" role="button">Order Now</a>
+					</div>
+					<div class="text-center">
+						<img src="img/desserts/dessert9.png" alt="">
+						<h5 class="product-name dessert"><a href="menu.html" tabindex="5"></a></h5>
+						<p class="product-property dessert"><em></em></p>
+						<p class="product-price dessert"></p>
+						<a href="#" class="btn btn-danger text-uppercase" role="button">Order Now</a>
+					</div>
+					<div class="text-center">
+						<img src="img/desserts/dessert11.png" alt="">
+						<h5 class="product-name dessert"><a href="menu.html" tabindex="5"></a></h5>
+						<p class="product-property dessert"><em></em></p>
+						<p class="product-price dessert"></p>
+						<a href="#" class="btn btn-danger text-uppercase" role="button">Order Now</a>
+					</div>
+					<div class="text-center">
+						<img src="img/desserts/dessert12.png" alt="">
+						<h5 class="product-name dessert"><a href="menu.html" tabindex="5"></a></h5>
+						<p class="product-property dessert"><em></em></p>
+						<p class="product-price dessert"></p>
+						<a href="#" class="btn btn-danger text-uppercase" role="button">Order Now</a>
+					</div>
+					<div class="text-center">
+						<img src="img/desserts/dessert13.png" alt="">
+						<h5 class="product-name dessert"><a href="menu.html" tabindex="5"></a></h5>
+						<p class="product-property dessert"><em></em></p>
+						<p class="product-price dessert"></p>
+						<a href="#" class="btn btn-danger text-uppercase" role="button">Order Now</a>
+					</div>
+					<div class="text-center">
+						<img src="img/desserts/dessert14.png" alt="">
+						<h5 class="product-name dessert"><a href="menu.html" tabindex="5"></a></h5>
+						<p class="product-property dessert"><em></em></p>
+						<p class="product-price dessert"></p>
+						<a href="#" class="btn btn-danger text-uppercase" role="button">Order Now</a>
+					</div>
+					<div class="text-center">
+						<img src="img/desserts/dessert15.png" alt="">
+						<h5 class="product-name dessert"><a href="menu.html" tabindex="5"></a></h5>
+						<p class="product-property dessert"><em></em></p>
+						<p class="product-price dessert"></p>
+						<a href="#" class="btn btn-danger text-uppercase" role="button">Order Now</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div><!--Menu END-->
+	<!--Delivery-->
+	<div class="container-fluid sec-delivery parallax-window text-center" data-parallax="scroll" data-image-src="img/delivery/delivery-2.png">
+		<h4><em>Free Delivery</em></h4>
+		<h2 class="text-uppercase"><em>Greek day</em></h2>
+		<div class="row delivery-offer">
+			<div class="col-xs-6">
+				<h3 class="delivery-price text-right">5<sup>99</sup></h3>
+			</div>
+			<div class="col-xs-6">
+				<ul>
+					<li class="delivery-item text-left">Greek Mac</li>
+					<li class="delivery-item text-left">Greek Salad</li>
+					<li class="delivery-item text-left">Cheese Cake</li>
+				</ul>
+			</div>
+		</div>
+		<button class="btn btn-danger text-uppercase">Order Now</button>
+	</div><!--Delivery END-->
+	<!--Terms-->
+	<div class="container text-center sec-terms">
+		<div class="row">
+			<div class="col-xs-12 col-sm-6 col-md-3 text-center">
+				<i class="icon ion-clock"></i>
+				<h5 class="text-uppercase">Fast Delivery</h5>
+				<hr>
+				<p>Everything you order at QuickFood will be quickly delivered to your door.</p>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-3 text-center">
+				<i class="icon ion-ios-nutrition-outline"></i>
+				<h5 class="text-uppercase">Fesh food</h5>
+				<hr>
+				<p>We use only the best ingredients to cook the tasty fresh food for you.</p>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-3 text-center">
+				<i class="icon ion-ios-star-outline"></i>
+				<h5 class="text-uppercase">Experienced chefs</h5>
+				<hr>
+				<p>Our staff consists of chefs and cooks with years of experience.</p>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-3 text-center">
+				<i class="icon ion-ios-flame-outline"></i>
+				<h5 class="text-uppercase">A variety of dishes</h5>
+				<hr>
+				<p>In our menu you’ll find a wide variety of dishes, desserts, and drinks.</p>
+			</div>
+		</div>
+	</div>
+	<!--Terms END-->
+	<!--Gallery-->
+	<div class="container-fluid sec-gallery">
+		<div class="row">
+			<div class="col-xs-12 col-sm-6 col-md-3"><img src="img/gallery/gallery-1.jpg" alt="" class="img-responsive"></div>
+			<div class="col-xs-12 col-sm-6 col-md-3"><img src="img/gallery/gallery-2.jpg" alt="" class="img-responsive"></div>
+			<div class="col-xs-12 col-sm-6 col-md-3"><img src="img/gallery/gallery-3.jpg" alt="" class="img-responsive"></div>
+			<div class="col-xs-12 col-sm-6 col-md-3"><img src="img/gallery/gallery-4.jpg" alt="" class="img-responsive"></div>
+		</div>
+	</div>
+	<!--Gallery END-->
+	<!--Google-Map-->
+	<div id="googleMap">
+	</div><!--Google-Map END-->
+	<!--Foooter-->
+	<footer class="container-fluid sec-footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-sm-6 col-md-3">
+					<h3 class="text-uppercase">B<span>u</span>rge<span>r</span>'s M<span>a</span>m<span>a</span></h3>
+					<p class="adress">Address: <span>New York City Deneg ne prosite</span></p>
+					<p class="email">Email: <a href="mailto:#" class="link-gray-light">info@demolink.org</a></p>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-3 footer-nav">
+					<h3 class="text-uppercase">Our menu</h3>
+					<ul class="footer-menu">
+						<li><a href="menu-single.html" class="footer-menu-links text-uppercase">Burgers</a></li>
+						<li><a href="menu-single.html" class="footer-menu-links text-uppercase">Pizzas</a></li>
+						<li><a href="menu-single.html" class="footer-menu-links text-uppercase">Toasts</a></li>
+						<li><a href="menu-single.html" class="footer-menu-links text-uppercase">Salads</a></li>
+						<li><a href="menu-single.html" class="footer-menu-links text-uppercase">Drinks</a></li>
+						<li><a href="menu-single.html" class="footer-menu-links text-uppercase">Desserts</a></li>
+					</ul>
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-6">
+					<h3 class="text-uppercase">Newsletter</h3>
+					<form class="form-inline" data-form-type="subscribe" method="post" action="bat/rd-mailform.php" >
+							<div class="form-group">
+								<div class="col-sm-8">
+									<input class="form-control form-email" placeholder="Your Email" name="email" data-constraints="@Required @Email"type="email">
+								</div>
+								<div class="col-sm-4">
+									<button class="btn btn-danger" type="submit" >Subscribe</button>
+								</div>
+							</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!--Foooter END-->
+	<!-- Optimized loading JS Start -->
+	<script>var scr = {"scripts":[
+		{"src" : "js/libs.min.js", "async" : false},
+	//	{"src" : "libs/jquery/jquery-3.2.1.min.js", "async" : false},
+		{"src" : "libs/slick/slick.min.js", "async" : false}, //slick slider
+		{"src" : "libs/parallax.js-1.4.2/parallax.min.js", "async" : false}, //parallax
+		{"src" : "js/common.js", "async" : false}
+		]};!function(t,n,r){"use strict";var c=function(t){if("[object Array]"!==Object.prototype.toString.call(t))return!1;for(var r=0;r<t.length;r++){var c=n.createElement("script"),e=t[r];c.src=e.src,c.async=e.async,n.body.appendChild(c)}return!0};t.addEventListener?t.addEventListener("load",function(){c(r.scripts);},!1):t.attachEvent?t.attachEvent("onload",function(){c(r.scripts)}):t.onload=function(){c(r.scripts)}}(window,document,scr);
+	</script>
+	<!-- Optimized loading JS End -->
+		<script src="http://maps.googleapis.com/maps/api/js"></script>
+    <script>
+      var myCenter = new google.maps.LatLng(41.878114, -87.629798);
+      function initialize() {
+        var mapProp = {
+        center:myCenter,
+        zoom:12,
+        scrollwheel:false,
+        draggable:false,
+        mapTypeId:google.maps.MapTypeId.ROADMAP
+      };
+      var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+      var marker = new google.maps.Marker({
+      position:myCenter,
+      });
+      marker.setMap(map);
+      }
+      google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+</body>
+</html>
