@@ -12,7 +12,8 @@ $('.slider').slick({
   
 });
 
-
+//Paralax
+$('.parallax-window').parallax({imageSrc: 'img/delivery/delivery-2.png'});
 
 
 
