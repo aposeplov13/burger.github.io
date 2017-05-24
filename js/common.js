@@ -16,10 +16,7 @@ $('.slider').slick({
 //Paralax
 $('.parallax-window').parallax({imageSrc: 'img/delivery/delivery-2.png'});
 
-
-
 // Google Map
-
 $(function() {
 	var myCenter = new google.maps.LatLng(41.878114, -87.629798);
 	function initialize() {
